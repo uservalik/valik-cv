@@ -1,0 +1,211 @@
+body{
+    background: yellow;
+    margin: 0;
+}
+nav{
+    background: rgb(65, 62, 62);
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+}
+nav ul li{
+    margin-left: 10%;
+    list-style-type: none;
+    height: 90px;
+}
+nav ul li a {
+    padding: 20px;
+    font-size: 60px;
+    color: yellow;
+    text-decoration: none;
+}
+.color{
+    background: rgb(30, 141, 7);
+    
+}
+.body-content{
+    margin:0;
+    padding: 0;
+}
+.container{
+    background: url(/image/Book.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+img{
+    width: 250px;
+    height: 320px;
+}
+.content img{
+    display: flex;
+    margin-left: 1300px;
+}
+p{
+    font-size: 50px;
+    margin-top: 0px;
+}
+a{
+    font-size: 35px;
+    padding: 17px;
+    color: whitesmoke;
+    width: 35%;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.color-body{
+    background: yellow;
+    width: 100vh;
+}
+.imgh{
+    width: 2000px;
+    margin-left: 20px;
+}
+.friend{
+    background: rgb(29, 110, 35);
+    padding: 2px;
+}
+.b{
+    font-size: 35px;
+    text-align: center;
+}
+.a{
+    background: rgb(29, 110, 35);
+}
+main a{
+    color: rgb(7, 191, 197);
+    background: black;
+    margin: 10px;
+}
+.maina{
+    font-size: 70px;
+}
+.nav{
+    background: rgb(65, 62, 62);
+    height: 90px;
+}
+.nav ul li{
+    height: 90px;
+}
+.c{
+    background: url(/image/sea.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+}
+.h{
+    width: 99%;
+    margin: 0;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.profile img{
+    border-radius: 200px;
+    height: 250px;
+}
+.colorp{
+    color: white;
+}
+.hobbies{
+    display: flex;
+}
+.container-form{
+    background: rgb(28, 143, 13);
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:768px){
+    nav .menu{
+        display: block;
+    }
+    .h1{
+        margin: 0;
+    }
+    nav .container .body-content img{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    nav .container .body-content .footer main .icons{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+@media(max-width:100){
+    .hobbies{
+        flex-wrap: wrap;
+    }
+}
+@media(orientation:portrait){
+    .hobbies{
+        flex-wrap: wrap;
+    }
+}
+input[type="First name"],
+input[type="Last name"],
+input[type="Email"],
+input[type="Phone"]{
+    height: 70px;
+    width: 600px;
+    font-size: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgb(126, 230, 248);
+    border-radius: 30px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+button{
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background: rgb(45, 22, 129);
+    color: white;
+}
+.h1hometown{
+    font-size: 70px;
+    text-align: center;
+    color: black;
+}
+.image{
+    display: flex;
+}
+.name-image{
+    background: rgb(100, 237, 184);
+    margin: 5px;
+    width: 100%;
+}
+.name-image img{
+    width: 100%;
+}
+@media(max-width:100){
+    .image{
+        flex-wrap: wrap;
+    }
+}
+@media(orientation:portrait){
+    .image{
+        flex-wrap: wrap;
+    }
+}
